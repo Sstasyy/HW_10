@@ -1,0 +1,91 @@
+    1  CD ../
+    2  cd de
+    3  cd /c/Users/a.cheban/Desktop/QA35
+    4  clear
+    5  pwd
+    6  ls -l
+    7  touch test.txt
+    8  ls -l
+    9  clear
+   10  vim text.txt
+   11  mkdir anastasia
+   12  mkdir a.cheban@IH-KV-WS22
+   13  cp test.txt anastasia
+   14  ls -l
+   15  rm test.txt
+   16  clear
+   17  ping google.com
+   18  date
+   19  systeminfo
+   20  clear
+   21  attrib +r text.txt
+   22  cd ../
+   23  ls -l
+   24  cd /c/Users/a.cheban/Desktop/QA35
+   25  clear
+   26  git clone https://github.com/Sstasyy/QA35.git
+   27  cd QA
+   28  git config --global user.name "Sstasyy"
+   29  git config --global user.email "anastasia.cheban@gmail.com"
+   30  git config --global user.name "Anastasia Repchenko"
+   31  toch file.txt
+   32  touch file.txt
+   33  git stasus
+   34  git status
+   35  git add file.txt
+   36  cd /c/Users/a.cheban/Desktop/QA35/QA35
+   37  git add file.txt
+   38  touch file.txt
+   39  git add file.txt
+   40  git commit -m"First commit"
+   41  git push
+   42  git push
+   43  cd /c/Users/a.cheban/Desktop/QA35/QA35
+   44  git push
+   45  git push
+   46  cd /c/Users/a.cheban/Desktop/QA35/QA35
+   47  git push
+   48  cd /c/Users/a.cheban/Desktop/QA35/QA35
+   49  git push
+   50  cd/c/Users/a.cheban/Desktop/HWGit
+   51  cd
+   52  cd 
+   53  cd /c/Users/a.cheban/Desktop/HWGit
+   54  -c && rm ~/.bash_history
+   55  clear
+   56  git clone https://github.com/Sstasyy/HW_10.git
+   57  cd/c/Users/a.cheban/Desktop/HWGit/HW_10
+   58  cd /c/Users/a.cheban/Desktop/HWGit/HW_10
+   59  git config --global user.name "Anastasia Repchenko"
+   60  git config --global user.email "anastasia.cheban@gmail.com"
+   61  clear
+   62  touch text_ignore.txt
+   63  ls -l
+   64  vim .gitignore
+   65  git  add .gitignore
+   66  git status - .gitignore
+   67  git commit .gitignore
+   68  git commit -m "test"
+   69  touch main_test.txt
+   70  git add main_test.txt
+   71  git status
+   72  git commit -m "test2"
+   73  mkdir develop
+   74  git branch develop
+   75  git checkout develop
+   76  touch develop_test.txt
+   77  git add develop_test.txt
+   78  git commit -m "test3"
+   79  vim develop_test.txt
+   80  git status
+   81  git add develop_test.txt
+   82  git commit -m "test 4"
+   83  git checkout -b <main>
+   84  git checkout -b "main"
+   85  git checkout -b<main>
+   86  git switch main
+   87  git merge <develop>
+   88  git merge 'develop'
+   89  git log
+   90  git log --all --graph
+   91  history > command_list.csv
